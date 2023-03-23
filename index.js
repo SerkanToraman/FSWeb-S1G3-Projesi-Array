@@ -180,7 +180,7 @@ Aşağıdakileri yapmak için ismeGoreFiltrele işlevini kullanın:
 function ismeGoreFiltrele(arr,xStr){
   let arr1 = [];
   for(let i = 0; i<arr.length;i++){
-    if(arr[i].textContent.includes(xStr)){
+    if(arr[i].includes(xStr)){
       arr1.push(arr[i]);
     }
   } return arr1;
